@@ -144,8 +144,5 @@ class GenerateIntl extends TranslationBase
         } catch (Exception $e) {
             $output->writeln('Unable to import country data for '.$langCode);
         }
-
-
-
     }
 }
