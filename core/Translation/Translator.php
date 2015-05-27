@@ -35,6 +35,13 @@ class Translator
     protected $loadedCountryTranslations = array();
 
     /**
+     * Contains the already loaded continent name translations
+     *
+     * @var array
+     */
+    protected $loadedContinentTranslations = array();
+
+    /**
      * Contains the already loaded language name translations
      *
      * @var array
@@ -129,6 +136,37 @@ class Translator
         // fall back to english country name
         if ($language != 'en') {
             return $this->getTranslatedCountry($countryCode, 'en');
+        }
+
+        return '';
+    }
+
+    /**
+     * Returns the continent name for the given continent code translated to the given language
+     *
+     * @param string $continentCode continent code
+     * @param null|string $language ISO 639-1 language code   (defaults to current language)
+     * @return string  translated continent name
+     */
+    public function getTranslatedContinent($continentCode, $language=null)
+    {
+        $filePattern = PIWIK_INCLUDE_PATH . '/core/Intl/Data/Resources/continents/%s.json';
+
+        $language = is_string($language) ? $language : $this->getCurrentLanguage();
+        $continentCode = strtolower($continentCode);
+
+        // try to get country name in given language
+        if (!array_key_exists($language, $this->loadedContinentTranslations) && file_exists(sprintf($filePattern, $language))) {
+            $this->loadedContinentTranslations[$language] = @json_decode(file_get_contents(sprintf($filePattern, $language)), true);
+        }
+
+        if (!empty($this->loadedContinentTranslations[$language][$continentCode])) {
+            return $this->loadedContinentTranslations[$language][$continentCode];
+        }
+
+        // fall back to english country name
+        if ($language != 'en') {
+            return $this->getTranslatedContinent($continentCode, 'en');
         }
 
         return '';

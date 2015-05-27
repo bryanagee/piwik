@@ -43,7 +43,7 @@ function continentTranslate($label)
     if ($label == 'unk' || $label == '') {
         return Piwik::translate('General_Unknown');
     }
-    return Piwik::translate('UserCountry_continent_' . $label);
+    return StaticContainer::get('Piwik\Translation\Translator')->getTranslatedContinent($label);
 }
 
 /**
