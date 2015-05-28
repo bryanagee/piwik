@@ -43,7 +43,7 @@ function continentTranslate($label)
     if ($label == 'unk' || $label == '') {
         return Piwik::translate('General_Unknown');
     }
-    return StaticContainer::get('Piwik\Translation\Translator')->getTranslatedContinent($label);
+    return Piwik::translate('Intl_Continent_' . $label);
 }
 
 /**
@@ -58,9 +58,10 @@ function countryTranslate($label)
         return Piwik::translate('General_Unknown');
     }
 
-    $country = StaticContainer::get('Piwik\Translation\Translator')->getTranslatedCountry($label);
+    $key = 'Intl_Country_' . strtoupper($label);
+    $country = Piwik::translate($key);
 
-    return $country ? $country : Piwik::translate('UserCountry_country_' . $label);
+    return ($country != $key) ? $country : Piwik::translate('UserCountry_country_' . $label);
 }
 
 /**

@@ -49,6 +49,13 @@ class Translator
     private $loadedLanguageTranslations = array();
 
     /**
+     * Contains the already loaded calendar translations
+     *
+     * @var array
+     */
+    private $loadedCalendarTranslations = array();
+
+    /**
      * @var string
      */
     private $currentLanguage;
@@ -108,98 +115,6 @@ class Translator
             return $translationId;
         }
         return vsprintf($translationId, $args);
-    }
-
-    /**
-     * Returns the country name for the given country code translated to the given language
-     *
-     * @param string $countryCode ISO 3166-1 alpha-2 country code
-     * @param null|string $language ISO 639-1 language code   (defaults to current language)
-     * @return string  translated country name
-     */
-    public function getTranslatedCountry($countryCode, $language=null)
-    {
-        $filePattern = PIWIK_INCLUDE_PATH . '/core/Intl/Data/Resources/countries/%s.json';
-
-        $language = is_string($language) ? $language : $this->getCurrentLanguage();
-        $countryCode = strtoupper($countryCode);
-
-        // try to get country name in given language
-        if (!array_key_exists($language, $this->loadedCountryTranslations) && file_exists(sprintf($filePattern, $language))) {
-            $this->loadedCountryTranslations[$language] = @json_decode(file_get_contents(sprintf($filePattern, $language)), true);
-        }
-
-        if (!empty($this->loadedCountryTranslations[$language][$countryCode])) {
-            return $this->loadedCountryTranslations[$language][$countryCode];
-        }
-
-        // fall back to english country name
-        if ($language != 'en') {
-            return $this->getTranslatedCountry($countryCode, 'en');
-        }
-
-        return '';
-    }
-
-    /**
-     * Returns the continent name for the given continent code translated to the given language
-     *
-     * @param string $continentCode continent code
-     * @param null|string $language ISO 639-1 language code   (defaults to current language)
-     * @return string  translated continent name
-     */
-    public function getTranslatedContinent($continentCode, $language=null)
-    {
-        $filePattern = PIWIK_INCLUDE_PATH . '/core/Intl/Data/Resources/continents/%s.json';
-
-        $language = is_string($language) ? $language : $this->getCurrentLanguage();
-        $continentCode = strtolower($continentCode);
-
-        // try to get country name in given language
-        if (!array_key_exists($language, $this->loadedContinentTranslations) && file_exists(sprintf($filePattern, $language))) {
-            $this->loadedContinentTranslations[$language] = @json_decode(file_get_contents(sprintf($filePattern, $language)), true);
-        }
-
-        if (!empty($this->loadedContinentTranslations[$language][$continentCode])) {
-            return $this->loadedContinentTranslations[$language][$continentCode];
-        }
-
-        // fall back to english country name
-        if ($language != 'en') {
-            return $this->getTranslatedContinent($continentCode, 'en');
-        }
-
-        return '';
-    }
-
-    /**
-     * Returns the language name for the given country code translated to the given language
-     *
-     * @param string $languageCode ISO 639-1 language code
-     * @param null|string $language ISO 639-1 language code   (defaults to current language)
-     * @return string  translated language name
-     */
-    public function getTranslatedLanguage($languageCode, $language=null)
-    {
-        $filePattern = PIWIK_INCLUDE_PATH . '/core/Intl/Data/Resources/languages/%s.json';
-
-        $language = is_string($language) ? $language : $this->getCurrentLanguage();
-
-        // try to get country name in given language
-        if (!array_key_exists($language, $this->loadedLanguageTranslations) && file_exists(sprintf($filePattern, $language))) {
-            $this->loadedLanguageTranslations[$language] = @json_decode(file_get_contents(sprintf($filePattern, $language)), true);
-        }
-
-        if (!empty($this->loadedLanguageTranslations[$language][$languageCode])) {
-            return $this->loadedLanguageTranslations[$language][$languageCode];
-        }
-
-        // fall back to english language name
-        if ($language != 'en') {
-            return $this->getTranslatedLanguage($languageCode, 'en');
-        }
-
-        return '';
     }
 
     /**
