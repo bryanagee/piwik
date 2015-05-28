@@ -1,0 +1,52 @@
+{
+    "months": {
+        "short": {
+            "1": "saus.",
+            "2": "vas.",
+            "3": "kov.",
+            "4": "bal.",
+            "5": "geg.",
+            "6": "birž.",
+            "7": "liep.",
+            "8": "rugp.",
+            "9": "rugs.",
+            "10": "spal.",
+            "11": "lapkr.",
+            "12": "gruod."
+        },
+        "long": {
+            "1": "sausio",
+            "2": "vasario",
+            "3": "kovo",
+            "4": "balandžio",
+            "5": "gegužės",
+            "6": "birželio",
+            "7": "liepos",
+            "8": "rugpjūčio",
+            "9": "rugsėjo",
+            "10": "spalio",
+            "11": "lapkričio",
+            "12": "gruodžio"
+        }
+    },
+    "days": {
+        "short": {
+            "sun": "Sk",
+            "mon": "Pr",
+            "tue": "An",
+            "wed": "Tr",
+            "thu": "Kt",
+            "fri": "Pn",
+            "sat": "Št"
+        },
+        "long": {
+            "sun": "sekmadienis",
+            "mon": "pirmadienis",
+            "tue": "antradienis",
+            "wed": "trečiadienis",
+            "thu": "ketvirtadienis",
+            "fri": "penktadienis",
+            "sat": "šeštadienis"
+        }
+    }
+}

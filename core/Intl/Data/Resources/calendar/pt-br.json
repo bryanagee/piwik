@@ -1,0 +1,52 @@
+{
+    "months": {
+        "short": {
+            "1": "jan",
+            "2": "fev",
+            "3": "mar",
+            "4": "abr",
+            "5": "mai",
+            "6": "jun",
+            "7": "jul",
+            "8": "ago",
+            "9": "set",
+            "10": "out",
+            "11": "nov",
+            "12": "dez"
+        },
+        "long": {
+            "1": "janeiro",
+            "2": "fevereiro",
+            "3": "março",
+            "4": "abril",
+            "5": "maio",
+            "6": "junho",
+            "7": "julho",
+            "8": "agosto",
+            "9": "setembro",
+            "10": "outubro",
+            "11": "novembro",
+            "12": "dezembro"
+        }
+    },
+    "days": {
+        "short": {
+            "sun": "dom",
+            "mon": "seg",
+            "tue": "ter",
+            "wed": "qua",
+            "thu": "qui",
+            "fri": "sex",
+            "sat": "sáb"
+        },
+        "long": {
+            "sun": "domingo",
+            "mon": "segunda-feira",
+            "tue": "terça-feira",
+            "wed": "quarta-feira",
+            "thu": "quinta-feira",
+            "fri": "sexta-feira",
+            "sat": "sábado"
+        }
+    }
+}

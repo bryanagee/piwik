@@ -1,0 +1,52 @@
+{
+    "months": {
+        "short": {
+            "1": "tammikuuta",
+            "2": "helmikuuta",
+            "3": "maaliskuuta",
+            "4": "huhtikuuta",
+            "5": "toukokuuta",
+            "6": "kesäkuuta",
+            "7": "heinäkuuta",
+            "8": "elokuuta",
+            "9": "syyskuuta",
+            "10": "lokakuuta",
+            "11": "marraskuuta",
+            "12": "joulukuuta"
+        },
+        "long": {
+            "1": "tammikuuta",
+            "2": "helmikuuta",
+            "3": "maaliskuuta",
+            "4": "huhtikuuta",
+            "5": "toukokuuta",
+            "6": "kesäkuuta",
+            "7": "heinäkuuta",
+            "8": "elokuuta",
+            "9": "syyskuuta",
+            "10": "lokakuuta",
+            "11": "marraskuuta",
+            "12": "joulukuuta"
+        }
+    },
+    "days": {
+        "short": {
+            "sun": "su",
+            "mon": "ma",
+            "tue": "ti",
+            "wed": "ke",
+            "thu": "to",
+            "fri": "pe",
+            "sat": "la"
+        },
+        "long": {
+            "sun": "sunnuntaina",
+            "mon": "maanantaina",
+            "tue": "tiistaina",
+            "wed": "keskiviikkona",
+            "thu": "torstaina",
+            "fri": "perjantaina",
+            "sat": "lauantaina"
+        }
+    }
+}

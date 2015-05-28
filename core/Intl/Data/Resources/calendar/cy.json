@@ -1,0 +1,52 @@
+{
+    "months": {
+        "short": {
+            "1": "Ion",
+            "2": "Chwef",
+            "3": "Mawrth",
+            "4": "Ebrill",
+            "5": "Mai",
+            "6": "Meh",
+            "7": "Gorff",
+            "8": "Awst",
+            "9": "Medi",
+            "10": "Hyd",
+            "11": "Tach",
+            "12": "Rhag"
+        },
+        "long": {
+            "1": "Ionawr",
+            "2": "Chwefror",
+            "3": "Mawrth",
+            "4": "Ebrill",
+            "5": "Mai",
+            "6": "Mehefin",
+            "7": "Gorffennaf",
+            "8": "Awst",
+            "9": "Medi",
+            "10": "Hydref",
+            "11": "Tachwedd",
+            "12": "Rhagfyr"
+        }
+    },
+    "days": {
+        "short": {
+            "sun": "Su",
+            "mon": "Ll",
+            "tue": "Ma",
+            "wed": "Me",
+            "thu": "Ia",
+            "fri": "Gw",
+            "sat": "Sa"
+        },
+        "long": {
+            "sun": "Dydd Sul",
+            "mon": "Dydd Llun",
+            "tue": "Dydd Mawrth",
+            "wed": "Dydd Mercher",
+            "thu": "Dydd Iau",
+            "fri": "Dydd Gwener",
+            "sat": "Dydd Sadwrn"
+        }
+    }
+}

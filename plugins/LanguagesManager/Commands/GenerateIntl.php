@@ -34,6 +34,11 @@ class GenerateIntl extends TranslationBase
     {
         $piwikLanguages = \Piwik\Plugins\LanguagesManager\API::getInstance()->getAvailableLanguages();
 
+        $aliasesUrl = 'https://raw.githubusercontent.com/unicode-cldr/cldr-core/master/supplemental/aliases.json';
+        $aliasesData = Http::fetchRemoteFile($aliasesUrl);
+        $aliasesData = json_decode($aliasesData, true);
+        $aliasesData = $aliasesData['supplemental']['metadata']['alias']['languageAlias'];
+
         foreach ($piwikLanguages AS $langCode) {
 
             if ($langCode == 'dev') {
@@ -47,16 +52,25 @@ class GenerateIntl extends TranslationBase
                 $requestLangCode = sprintf('%s-%s', $langCodeParts[0], strtoupper($langCodeParts[1]));
             }
 
-            if ($langCode == 'zh-cn') {
-                $requestLangCode = 'zh-Hans';
+            if (array_key_exists($requestLangCode, $aliasesData)) {
+                $requestLangCode = $aliasesData[$requestLangCode]['_replacement'];
             }
 
-            if ($langCode == 'zh-tw') {
-                $requestLangCode = 'zh-Hant';
+            // fix some locales
+            $localFixes = array(
+                'pt' => 'pr-PT',
+                'pt-br' => 'pt',
+                'zh-cn' => 'zh-Hans',
+                'zh-tw' => 'zh-Hant'
+            );
+
+            if (array_key_exists($langCode, $localFixes)) {
+                $requestLangCode = $localFixes[$langCode];
             }
 
             $this->fetchLanguageData($output, $langCode, $requestLangCode);
             $this->fetchTerritoryData($output, $langCode, $requestLangCode);
+            $this->fetchCalendarData($output, $langCode, $requestLangCode);
         }
     }
 
@@ -142,7 +156,49 @@ class GenerateIntl extends TranslationBase
 
             $output->writeln('Saved territory data for '.$langCode);
         } catch (Exception $e) {
-            $output->writeln('Unable to import country data for '.$langCode);
+            $output->writeln('Unable to import territory data for '.$langCode);
         }
     }
+
+    protected function fetchCalendarData(OutputInterface $output, $langCode, $requestLangCode)
+    {
+        $calendarDataUrl = 'https://raw.githubusercontent.com/unicode-cldr/cldr-dates-full/master/main/%s/ca-gregorian.json';
+        $calendarWritePath = Filesystem::getPathToPiwikRoot() . '/core/Intl/Data/Resources/calendar/%s.json';
+
+        try {
+            $calendarData = Http::fetchRemoteFile(sprintf($calendarDataUrl, $requestLangCode));
+            $calendarData = json_decode($calendarData, true);
+            $calendarData = $calendarData['main'][$requestLangCode]['dates']['calendars']['gregorian'];
+
+            $calendarTranslations = (array) @json_decode(file_get_contents(sprintf($calendarWritePath, $langCode)), true);
+
+            for ($i=1; $i<=12; $i++) {
+                $calendarTranslations['months']['short'][$i] = $calendarData['months']['format']['abbreviated'][$i];
+                $calendarTranslations['months']['long'][$i] = $calendarData['months']['format']['wide'][$i];
+            }
+
+            $months = array(
+                'sun',
+                'mon',
+                'tue',
+                'wed',
+                'thu',
+                'fri',
+                'sat'
+            );
+
+            foreach ($months AS $month) {
+                $calendarTranslations['days']['short'][$month] = $calendarData['days']['format']['short'][$month];
+                $calendarTranslations['days']['long'][$month] = $calendarData['days']['format']['wide'][$month];
+            }
+
+            file_put_contents(sprintf($calendarWritePath, $langCode), json_encode($calendarTranslations, JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE));
+
+            $output->writeln('Saved calendar data for '.$langCode);
+        } catch (Exception $e) {
+            $output->writeln('Unable to import calendar data for '.$langCode);
+        }
+    }
+
+
 }

@@ -1,0 +1,52 @@
+{
+    "months": {
+        "short": {
+            "1": "Ene",
+            "2": "Peb",
+            "3": "Mar",
+            "4": "Abr",
+            "5": "May",
+            "6": "Hun",
+            "7": "Hul",
+            "8": "Ago",
+            "9": "Set",
+            "10": "Okt",
+            "11": "Nob",
+            "12": "Dis"
+        },
+        "long": {
+            "1": "Enero",
+            "2": "Pebrero",
+            "3": "Marso",
+            "4": "Abril",
+            "5": "Mayo",
+            "6": "Hunyo",
+            "7": "Hulyo",
+            "8": "Agosto",
+            "9": "Setyembre",
+            "10": "Oktubre",
+            "11": "Nobyembre",
+            "12": "Disyembre"
+        }
+    },
+    "days": {
+        "short": {
+            "sun": "Li",
+            "mon": "Lu",
+            "tue": "Ma",
+            "wed": "Mi",
+            "thu": "Hu",
+            "fri": "Bi",
+            "sat": "Sa"
+        },
+        "long": {
+            "sun": "Linggo",
+            "mon": "Lunes",
+            "tue": "Martes",
+            "wed": "Miyerkules",
+            "thu": "Huwebes",
+            "fri": "Biyernes",
+            "sat": "Sabado"
+        }
+    }
+}

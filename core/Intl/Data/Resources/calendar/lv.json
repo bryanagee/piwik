@@ -1,0 +1,52 @@
+{
+    "months": {
+        "short": {
+            "1": "janv.",
+            "2": "febr.",
+            "3": "marts",
+            "4": "apr.",
+            "5": "maijs",
+            "6": "jūn.",
+            "7": "jūl.",
+            "8": "aug.",
+            "9": "sept.",
+            "10": "okt.",
+            "11": "nov.",
+            "12": "dec."
+        },
+        "long": {
+            "1": "janvāris",
+            "2": "februāris",
+            "3": "marts",
+            "4": "aprīlis",
+            "5": "maijs",
+            "6": "jūnijs",
+            "7": "jūlijs",
+            "8": "augusts",
+            "9": "septembris",
+            "10": "oktobris",
+            "11": "novembris",
+            "12": "decembris"
+        }
+    },
+    "days": {
+        "short": {
+            "sun": "Sv",
+            "mon": "Pr",
+            "tue": "Ot",
+            "wed": "Tr",
+            "thu": "Ce",
+            "fri": "Pk",
+            "sat": "Se"
+        },
+        "long": {
+            "sun": "svētdiena",
+            "mon": "pirmdiena",
+            "tue": "otrdiena",
+            "wed": "trešdiena",
+            "thu": "ceturtdiena",
+            "fri": "piektdiena",
+            "sat": "sestdiena"
+        }
+    }
+}

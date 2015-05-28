@@ -1,0 +1,52 @@
+{
+    "months": {
+        "short": {
+            "1": "jaan",
+            "2": "veebr",
+            "3": "märts",
+            "4": "apr",
+            "5": "mai",
+            "6": "juuni",
+            "7": "juuli",
+            "8": "aug",
+            "9": "sept",
+            "10": "okt",
+            "11": "nov",
+            "12": "dets"
+        },
+        "long": {
+            "1": "jaanuar",
+            "2": "veebruar",
+            "3": "märts",
+            "4": "aprill",
+            "5": "mai",
+            "6": "juuni",
+            "7": "juuli",
+            "8": "august",
+            "9": "september",
+            "10": "oktoober",
+            "11": "november",
+            "12": "detsember"
+        }
+    },
+    "days": {
+        "short": {
+            "sun": "P",
+            "mon": "E",
+            "tue": "T",
+            "wed": "K",
+            "thu": "N",
+            "fri": "R",
+            "sat": "L"
+        },
+        "long": {
+            "sun": "pühapäev",
+            "mon": "esmaspäev",
+            "tue": "teisipäev",
+            "wed": "kolmapäev",
+            "thu": "neljapäev",
+            "fri": "reede",
+            "sat": "laupäev"
+        }
+    }
+}
