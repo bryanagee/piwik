@@ -50,7 +50,7 @@ input[disabled] {
         text-transform: none;
         font-size: 12px;
         line-height: 20px;
-        margin: 2px 0;
+        margin: 6px 0 2px;
         input[type="checkbox"], input[type="radio"] {
             display: inline;
             width: auto;
@@ -73,6 +73,10 @@ input[disabled] {
         // Smaller padding to match input's heights
         padding-top: 11px;
         padding-bottom: 10px;
+    }
+
+    .sites_autocomplete {
+        position: relative;
     }
 }
 
@@ -401,10 +405,6 @@ label {
   .form-radio + label, .form-checkbox + label {
     width: 250px;
   }
-}
-
-.small-form-description { // for tracking code generator
-  clear:both;
 }
 
 // Bootstrap input groups
