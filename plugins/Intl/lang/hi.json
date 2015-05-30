@@ -264,6 +264,7 @@
         "DayTh": "गु",
         "DayTu": "मं",
         "DayWe": "बु",
+        "EnglishLanguageName": "Hindi",
         "Language_aa": "अफ़ार",
         "Language_ab": "अब्ख़ाज़ियन",
         "Language_ae": "अवस्ताई",
@@ -466,6 +467,7 @@
         "LongMonth_7": "जुलाई",
         "LongMonth_8": "अगस्त",
         "LongMonth_9": "सितंबर",
+        "OriginalLanguageName": "हिन्दी",
         "ShortDay_1": "सोम",
         "ShortDay_2": "मंगल",
         "ShortDay_3": "बुध",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "जून",
         "ShortMonth_7": "जुल॰",
         "ShortMonth_8": "अग॰",
-        "ShortMonth_9": "सित॰"
+        "ShortMonth_9": "सित॰",
+        "Today": "आज",
+        "YearShort": "वर्ष",
+        "Yesterday": "कल"
     }
 }

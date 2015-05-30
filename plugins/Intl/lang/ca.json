@@ -264,6 +264,7 @@
         "DayTh": "dj.",
         "DayTu": "dt.",
         "DayWe": "dc.",
+        "EnglishLanguageName": "Catalan",
         "Language_aa": "àfar",
         "Language_ab": "abkhaz",
         "Language_ae": "avèstic",
@@ -466,6 +467,7 @@
         "LongMonth_7": "de juliol",
         "LongMonth_8": "d’agost",
         "LongMonth_9": "de setembre",
+        "OriginalLanguageName": "català",
         "ShortDay_1": "dl.",
         "ShortDay_2": "dt.",
         "ShortDay_3": "dc.",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "juny",
         "ShortMonth_7": "jul.",
         "ShortMonth_8": "ag.",
-        "ShortMonth_9": "set."
+        "ShortMonth_9": "set.",
+        "Today": "avui",
+        "YearShort": "any",
+        "Yesterday": "ahir"
     }
 }

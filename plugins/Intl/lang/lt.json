@@ -264,6 +264,7 @@
         "DayTh": "Kt",
         "DayTu": "An",
         "DayWe": "Tr",
+        "EnglishLanguageName": "Lithuanian",
         "Language_aa": "afarų",
         "Language_ab": "abchazų",
         "Language_ae": "avestų",
@@ -466,6 +467,7 @@
         "LongMonth_7": "liepos",
         "LongMonth_8": "rugpjūčio",
         "LongMonth_9": "rugsėjo",
+        "OriginalLanguageName": "lietuvių",
         "ShortDay_1": "pr",
         "ShortDay_2": "an",
         "ShortDay_3": "tr",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "birž.",
         "ShortMonth_7": "liep.",
         "ShortMonth_8": "rugp.",
-        "ShortMonth_9": "rugs."
+        "ShortMonth_9": "rugs.",
+        "Today": "šiandien",
+        "YearShort": "m.",
+        "Yesterday": "vakar"
     }
 }

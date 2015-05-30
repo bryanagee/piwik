@@ -264,6 +264,7 @@
         "DayTh": "to",
         "DayTu": "ti",
         "DayWe": "ke",
+        "EnglishLanguageName": "Finnish",
         "Language_aa": "afar",
         "Language_ab": "abhaasi",
         "Language_ae": "avesta",
@@ -466,6 +467,7 @@
         "LongMonth_7": "heinäkuuta",
         "LongMonth_8": "elokuuta",
         "LongMonth_9": "syyskuuta",
+        "OriginalLanguageName": "suomi",
         "ShortDay_1": "ma",
         "ShortDay_2": "ti",
         "ShortDay_3": "ke",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "kesäkuuta",
         "ShortMonth_7": "heinäkuuta",
         "ShortMonth_8": "elokuuta",
-        "ShortMonth_9": "syyskuuta"
+        "ShortMonth_9": "syyskuuta",
+        "Today": "tänään",
+        "YearShort": "v",
+        "Yesterday": "eilen"
     }
 }

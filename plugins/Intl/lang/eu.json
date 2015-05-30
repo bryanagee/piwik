@@ -264,6 +264,7 @@
         "DayTh": "og.",
         "DayTu": "ar.",
         "DayWe": "az.",
+        "EnglishLanguageName": "Basque",
         "Language_ab": "abkhazera",
         "Language_af": "afrikaansa",
         "Language_ak": "akanera",
@@ -436,6 +437,7 @@
         "LongMonth_7": "uztailak",
         "LongMonth_8": "abuztuak",
         "LongMonth_9": "irailak",
+        "OriginalLanguageName": "euskara",
         "ShortDay_1": "al.",
         "ShortDay_2": "ar.",
         "ShortDay_3": "az.",
@@ -454,6 +456,9 @@
         "ShortMonth_6": "eka.",
         "ShortMonth_7": "uzt.",
         "ShortMonth_8": "abu.",
-        "ShortMonth_9": "ira."
+        "ShortMonth_9": "ira.",
+        "Today": "gaur",
+        "YearShort": "urtea",
+        "Yesterday": "atzo"
     }
 }

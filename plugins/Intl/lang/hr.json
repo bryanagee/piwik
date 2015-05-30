@@ -264,6 +264,7 @@
         "DayTh": "čet",
         "DayTu": "uto",
         "DayWe": "sri",
+        "EnglishLanguageName": "Croatian",
         "Language_aa": "afarski",
         "Language_ab": "abhaski",
         "Language_ae": "avestan",
@@ -466,6 +467,7 @@
         "LongMonth_7": "srpnja",
         "LongMonth_8": "kolovoza",
         "LongMonth_9": "rujna",
+        "OriginalLanguageName": "hrvatski",
         "ShortDay_1": "pon",
         "ShortDay_2": "uto",
         "ShortDay_3": "sri",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "lip",
         "ShortMonth_7": "srp",
         "ShortMonth_8": "kol",
-        "ShortMonth_9": "ruj"
+        "ShortMonth_9": "ruj",
+        "Today": "danas",
+        "YearShort": "g.",
+        "Yesterday": "jučer"
     }
 }

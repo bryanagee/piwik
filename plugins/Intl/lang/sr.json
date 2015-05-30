@@ -264,6 +264,7 @@
         "DayTh": "чет",
         "DayTu": "уто",
         "DayWe": "сре",
+        "EnglishLanguageName": "Serbian",
         "Language_aa": "Афарски",
         "Language_ab": "абхаски",
         "Language_ae": "Авестански",
@@ -466,6 +467,7 @@
         "LongMonth_7": "јул",
         "LongMonth_8": "август",
         "LongMonth_9": "септембар",
+        "OriginalLanguageName": "српски",
         "ShortDay_1": "пон",
         "ShortDay_2": "уто",
         "ShortDay_3": "сре",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "јун",
         "ShortMonth_7": "јул",
         "ShortMonth_8": "авг",
-        "ShortMonth_9": "сеп"
+        "ShortMonth_9": "сеп",
+        "Today": "данас",
+        "YearShort": "г.",
+        "Yesterday": "јуче"
     }
 }

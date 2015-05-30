@@ -264,6 +264,7 @@
         "DayTh": "Πέ",
         "DayTu": "Τρ",
         "DayWe": "Τε",
+        "EnglishLanguageName": "Greek",
         "Language_aa": "Αφάρ",
         "Language_ab": "Αμπχαζικά",
         "Language_ae": "Αβεστάν",
@@ -466,6 +467,7 @@
         "LongMonth_7": "Ιουλίου",
         "LongMonth_8": "Αυγούστου",
         "LongMonth_9": "Σεπτεμβρίου",
+        "OriginalLanguageName": "Ελληνικά",
         "ShortDay_1": "Δευ",
         "ShortDay_2": "Τρί",
         "ShortDay_3": "Τετ",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "Ιουν",
         "ShortMonth_7": "Ιουλ",
         "ShortMonth_8": "Αυγ",
-        "ShortMonth_9": "Σεπ"
+        "ShortMonth_9": "Σεπ",
+        "Today": "σήμερα",
+        "YearShort": "έτ.",
+        "Yesterday": "χθες"
     }
 }

@@ -264,6 +264,7 @@
         "DayTh": "to",
         "DayTu": "ti",
         "DayWe": "on",
+        "EnglishLanguageName": "Swedish",
         "Language_aa": "afar",
         "Language_ab": "abchaziska",
         "Language_ae": "avestiska",
@@ -466,6 +467,7 @@
         "LongMonth_7": "juli",
         "LongMonth_8": "augusti",
         "LongMonth_9": "september",
+        "OriginalLanguageName": "svenska",
         "ShortDay_1": "mån",
         "ShortDay_2": "tis",
         "ShortDay_3": "ons",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "juni",
         "ShortMonth_7": "juli",
         "ShortMonth_8": "aug.",
-        "ShortMonth_9": "sep."
+        "ShortMonth_9": "sep.",
+        "Today": "i dag",
+        "YearShort": "år",
+        "Yesterday": "i går"
     }
 }

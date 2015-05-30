@@ -264,6 +264,7 @@
         "DayTh": "Do.",
         "DayTu": "Di.",
         "DayWe": "Mi.",
+        "EnglishLanguageName": "German",
         "Language_aa": "Afar",
         "Language_ab": "Abchasisch",
         "Language_ae": "Avestisch",
@@ -466,6 +467,7 @@
         "LongMonth_7": "Juli",
         "LongMonth_8": "August",
         "LongMonth_9": "September",
+        "OriginalLanguageName": "Deutsch",
         "ShortDay_1": "Mo.",
         "ShortDay_2": "Di.",
         "ShortDay_3": "Mi.",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "Juni",
         "ShortMonth_7": "Juli",
         "ShortMonth_8": "Aug.",
-        "ShortMonth_9": "Sep."
+        "ShortMonth_9": "Sep.",
+        "Today": "heute",
+        "YearShort": "J",
+        "Yesterday": "gestern"
     }
 }

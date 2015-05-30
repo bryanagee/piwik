@@ -264,6 +264,7 @@
         "DayTh": "۵ش",
         "DayTu": "۳ش",
         "DayWe": "۴ش",
+        "EnglishLanguageName": "Persian",
         "Language_aa": "آفاری",
         "Language_ab": "آبخازی",
         "Language_ae": "اوستایی",
@@ -466,6 +467,7 @@
         "LongMonth_7": "ژوئیهٔ",
         "LongMonth_8": "اوت",
         "LongMonth_9": "سپتامبر",
+        "OriginalLanguageName": "فارسی",
         "ShortDay_1": "دوشنبه",
         "ShortDay_2": "سه‌شنبه",
         "ShortDay_3": "چهارشنبه",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "ژوئن",
         "ShortMonth_7": "ژوئیهٔ",
         "ShortMonth_8": "اوت",
-        "ShortMonth_9": "سپتامبر"
+        "ShortMonth_9": "سپتامبر",
+        "Today": "امروز",
+        "YearShort": "سال",
+        "Yesterday": "دیروز"
     }
 }

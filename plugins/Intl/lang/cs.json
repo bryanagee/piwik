@@ -264,6 +264,7 @@
         "DayTh": "čt",
         "DayTu": "út",
         "DayWe": "st",
+        "EnglishLanguageName": "Czech",
         "Language_aa": "afarština",
         "Language_ab": "abcházština",
         "Language_ae": "avestánština",
@@ -466,6 +467,7 @@
         "LongMonth_7": "července",
         "LongMonth_8": "srpna",
         "LongMonth_9": "září",
+        "OriginalLanguageName": "čeština",
         "ShortDay_1": "po",
         "ShortDay_2": "út",
         "ShortDay_3": "st",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "čvn",
         "ShortMonth_7": "čvc",
         "ShortMonth_8": "srp",
-        "ShortMonth_9": "zář"
+        "ShortMonth_9": "zář",
+        "Today": "dnes",
+        "YearShort": "r.",
+        "Yesterday": "včera"
     }
 }

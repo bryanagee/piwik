@@ -264,6 +264,7 @@
         "DayTh": "Enj",
         "DayTu": "Mar",
         "DayWe": "Mër",
+        "EnglishLanguageName": "Albanian",
         "Language_ab": "abkazisht",
         "Language_af": "afrikanisht",
         "Language_ak": "akanisht",
@@ -416,6 +417,7 @@
         "LongMonth_7": "korrik",
         "LongMonth_8": "gusht",
         "LongMonth_9": "shtator",
+        "OriginalLanguageName": "shqip",
         "ShortDay_1": "Hën",
         "ShortDay_2": "Mar",
         "ShortDay_3": "Mër",
@@ -434,6 +436,9 @@
         "ShortMonth_6": "Qer",
         "ShortMonth_7": "Kor",
         "ShortMonth_8": "Gsh",
-        "ShortMonth_9": "Sht"
+        "ShortMonth_9": "Sht",
+        "Today": "sot",
+        "YearShort": "vit",
+        "Yesterday": "dje"
     }
 }

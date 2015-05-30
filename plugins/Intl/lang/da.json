@@ -264,6 +264,7 @@
         "DayTh": "to",
         "DayTu": "ti",
         "DayWe": "on",
+        "EnglishLanguageName": "Danish",
         "Language_aa": "afar",
         "Language_ab": "abkhasisk",
         "Language_ae": "avestan",
@@ -466,6 +467,7 @@
         "LongMonth_7": "juli",
         "LongMonth_8": "august",
         "LongMonth_9": "september",
+        "OriginalLanguageName": "dansk",
         "ShortDay_1": "man.",
         "ShortDay_2": "tir.",
         "ShortDay_3": "ons.",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "jun.",
         "ShortMonth_7": "jul.",
         "ShortMonth_8": "aug.",
-        "ShortMonth_9": "sep."
+        "ShortMonth_9": "sep.",
+        "Today": "i dag",
+        "YearShort": "år",
+        "Yesterday": "i går"
     }
 }

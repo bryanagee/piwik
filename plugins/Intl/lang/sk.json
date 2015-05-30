@@ -264,6 +264,7 @@
         "DayTh": "Št",
         "DayTu": "Ut",
         "DayWe": "St",
+        "EnglishLanguageName": "Slovak",
         "Language_aa": "afarčina",
         "Language_ab": "abcházčina",
         "Language_ae": "avestčina",
@@ -466,6 +467,7 @@
         "LongMonth_7": "júla",
         "LongMonth_8": "augusta",
         "LongMonth_9": "septembra",
+        "OriginalLanguageName": "slovenčina",
         "ShortDay_1": "po",
         "ShortDay_2": "ut",
         "ShortDay_3": "st",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "jún",
         "ShortMonth_7": "júl",
         "ShortMonth_8": "aug",
-        "ShortMonth_9": "sep"
+        "ShortMonth_9": "sep",
+        "Today": "dnes",
+        "YearShort": "r.",
+        "Yesterday": "včera"
     }
 }

@@ -264,6 +264,7 @@
         "DayTh": "чт",
         "DayTu": "вт",
         "DayWe": "ср",
+        "EnglishLanguageName": "Bulgarian",
         "Language_aa": "афар",
         "Language_ab": "абхазки",
         "Language_ae": "авестски",
@@ -466,6 +467,7 @@
         "LongMonth_7": "юли",
         "LongMonth_8": "август",
         "LongMonth_9": "септември",
+        "OriginalLanguageName": "български",
         "ShortDay_1": "пн",
         "ShortDay_2": "вт",
         "ShortDay_3": "ср",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "юни",
         "ShortMonth_7": "юли",
         "ShortMonth_8": "авг.",
-        "ShortMonth_9": "септ."
+        "ShortMonth_9": "септ.",
+        "Today": "днес",
+        "YearShort": "г.",
+        "Yesterday": "вчера"
     }
 }

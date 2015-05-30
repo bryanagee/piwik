@@ -264,6 +264,7 @@
         "DayTh": "Чт",
         "DayTu": "Вт",
         "DayWe": "Ср",
+        "EnglishLanguageName": "Ukrainian",
         "Language_aa": "афарська",
         "Language_ab": "абхазька",
         "Language_ae": "авестійська",
@@ -466,6 +467,7 @@
         "LongMonth_7": "липня",
         "LongMonth_8": "серпня",
         "LongMonth_9": "вересня",
+        "OriginalLanguageName": "українська",
         "ShortDay_1": "Пн",
         "ShortDay_2": "Вт",
         "ShortDay_3": "Ср",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "черв.",
         "ShortMonth_7": "лип.",
         "ShortMonth_8": "серп.",
-        "ShortMonth_9": "вер."
+        "ShortMonth_9": "вер.",
+        "Today": "сьогодні",
+        "YearShort": "р.",
+        "Yesterday": "учора"
     }
 }

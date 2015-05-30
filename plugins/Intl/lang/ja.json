@@ -264,6 +264,7 @@
         "DayTh": "木",
         "DayTu": "火",
         "DayWe": "水",
+        "EnglishLanguageName": "Japanese",
         "Language_aa": "アファル語",
         "Language_ab": "アブハズ語",
         "Language_ae": "アヴェスタ語",
@@ -466,6 +467,7 @@
         "LongMonth_7": "7月",
         "LongMonth_8": "8月",
         "LongMonth_9": "9月",
+        "OriginalLanguageName": "日本語",
         "ShortDay_1": "月",
         "ShortDay_2": "火",
         "ShortDay_3": "水",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "6月",
         "ShortMonth_7": "7月",
         "ShortMonth_8": "8月",
-        "ShortMonth_9": "9月"
+        "ShortMonth_9": "9月",
+        "Today": "今日",
+        "YearShort": "年",
+        "Yesterday": "昨日"
     }
 }

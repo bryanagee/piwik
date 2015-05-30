@@ -264,6 +264,7 @@
         "DayTh": "do",
         "DayTu": "di",
         "DayWe": "wo",
+        "EnglishLanguageName": "Dutch",
         "Language_aa": "Afar",
         "Language_ab": "Abchazisch",
         "Language_ae": "Avestisch",
@@ -466,6 +467,7 @@
         "LongMonth_7": "juli",
         "LongMonth_8": "augustus",
         "LongMonth_9": "september",
+        "OriginalLanguageName": "Nederlands",
         "ShortDay_1": "ma",
         "ShortDay_2": "di",
         "ShortDay_3": "wo",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "jun.",
         "ShortMonth_7": "jul.",
         "ShortMonth_8": "aug.",
-        "ShortMonth_9": "sep."
+        "ShortMonth_9": "sep.",
+        "Today": "vandaag",
+        "YearShort": "jr.",
+        "Yesterday": "gisteren"
     }
 }

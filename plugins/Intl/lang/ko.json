@@ -264,6 +264,7 @@
         "DayTh": "목",
         "DayTu": "화",
         "DayWe": "수",
+        "EnglishLanguageName": "Korean",
         "Language_aa": "아파르어",
         "Language_ab": "압카즈어",
         "Language_ae": "아베스타어",
@@ -466,6 +467,7 @@
         "LongMonth_7": "7월",
         "LongMonth_8": "8월",
         "LongMonth_9": "9월",
+        "OriginalLanguageName": "한국어",
         "ShortDay_1": "월",
         "ShortDay_2": "화",
         "ShortDay_3": "수",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "6월",
         "ShortMonth_7": "7월",
         "ShortMonth_8": "8월",
-        "ShortMonth_9": "9월"
+        "ShortMonth_9": "9월",
+        "Today": "오늘",
+        "YearShort": "년",
+        "Yesterday": "어제"
     }
 }

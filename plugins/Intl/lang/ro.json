@@ -264,6 +264,7 @@
         "DayTh": "Jo",
         "DayTu": "Ma",
         "DayWe": "Mi",
+        "EnglishLanguageName": "Romanian",
         "Language_aa": "afar",
         "Language_ab": "abhază",
         "Language_ae": "avestană",
@@ -466,6 +467,7 @@
         "LongMonth_7": "iulie",
         "LongMonth_8": "august",
         "LongMonth_9": "septembrie",
+        "OriginalLanguageName": "română",
         "ShortDay_1": "Lun",
         "ShortDay_2": "Mar",
         "ShortDay_3": "Mie",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "iun.",
         "ShortMonth_7": "iul.",
         "ShortMonth_8": "aug.",
-        "ShortMonth_9": "sept."
+        "ShortMonth_9": "sept.",
+        "Today": "azi",
+        "YearShort": "an",
+        "Yesterday": "ieri"
     }
 }

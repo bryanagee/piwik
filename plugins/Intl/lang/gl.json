@@ -264,6 +264,7 @@
         "DayTh": "xv",
         "DayTu": "mt",
         "DayWe": "mc",
+        "EnglishLanguageName": "Galician",
         "Language_ab": "abkhazo",
         "Language_af": "afrikaans",
         "Language_ak": "akán",
@@ -436,6 +437,7 @@
         "LongMonth_7": "xullo",
         "LongMonth_8": "agosto",
         "LongMonth_9": "setembro",
+        "OriginalLanguageName": "galego",
         "ShortDay_1": "lun",
         "ShortDay_2": "mar",
         "ShortDay_3": "mér",
@@ -454,6 +456,9 @@
         "ShortMonth_6": "xuñ",
         "ShortMonth_7": "xul",
         "ShortMonth_8": "ago",
-        "ShortMonth_9": "set"
+        "ShortMonth_9": "set",
+        "Today": "hoxe",
+        "YearShort": "Ano",
+        "Yesterday": "onte"
     }
 }

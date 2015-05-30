@@ -264,6 +264,7 @@
         "DayTh": "ה׳",
         "DayTu": "ג׳",
         "DayWe": "ד׳",
+        "EnglishLanguageName": "Hebrew",
         "Language_aa": "אפארית",
         "Language_ab": "אבחזית",
         "Language_ae": "אבסטן",
@@ -466,6 +467,7 @@
         "LongMonth_7": "יולי",
         "LongMonth_8": "אוגוסט",
         "LongMonth_9": "ספטמבר",
+        "OriginalLanguageName": "עברית",
         "ShortDay_1": "יום ב׳",
         "ShortDay_2": "יום ג׳",
         "ShortDay_3": "יום ד׳",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "יוני",
         "ShortMonth_7": "יולי",
         "ShortMonth_8": "אוג׳",
-        "ShortMonth_9": "ספט׳"
+        "ShortMonth_9": "ספט׳",
+        "Today": "היום",
+        "YearShort": "שנ׳",
+        "Yesterday": "אתמול"
     }
 }

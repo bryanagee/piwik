@@ -264,6 +264,7 @@
         "DayTh": "čet",
         "DayTu": "uto",
         "DayWe": "sri",
+        "EnglishLanguageName": "Bosnian",
         "Language_aa": "afarski",
         "Language_ab": "abhazijski",
         "Language_ae": "avestanski",
@@ -465,6 +466,7 @@
         "LongMonth_7": "juli",
         "LongMonth_8": "august",
         "LongMonth_9": "septembar",
+        "OriginalLanguageName": "bosanski",
         "ShortDay_1": "pon",
         "ShortDay_2": "uto",
         "ShortDay_3": "sri",
@@ -483,6 +485,9 @@
         "ShortMonth_6": "jun",
         "ShortMonth_7": "jul",
         "ShortMonth_8": "aug",
-        "ShortMonth_9": "sep"
+        "ShortMonth_9": "sep",
+        "Today": "danas",
+        "YearShort": "g.",
+        "Yesterday": "juče"
     }
 }

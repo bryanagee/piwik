@@ -264,6 +264,7 @@
         "DayTh": "ხთ",
         "DayTu": "სმ",
         "DayWe": "ოთ",
+        "EnglishLanguageName": "Georgian",
         "Language_aa": "აფარი",
         "Language_ab": "აფხაზური",
         "Language_ae": "ავესტური",
@@ -447,6 +448,7 @@
         "LongMonth_7": "ივლისი",
         "LongMonth_8": "აგვისტო",
         "LongMonth_9": "სექტემბერი",
+        "OriginalLanguageName": "ქართული",
         "ShortDay_1": "ორშ",
         "ShortDay_2": "სამ",
         "ShortDay_3": "ოთხ",
@@ -465,6 +467,9 @@
         "ShortMonth_6": "ივნ",
         "ShortMonth_7": "ივლ",
         "ShortMonth_8": "აგვ",
-        "ShortMonth_9": "სექ"
+        "ShortMonth_9": "სექ",
+        "Today": "დღეს",
+        "YearShort": "წ.",
+        "Yesterday": "გუშინ"
     }
 }

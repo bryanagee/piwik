@@ -264,6 +264,7 @@
         "DayTh": "الخميس",
         "DayTu": "الثلاثاء",
         "DayWe": "الأربعاء",
+        "EnglishLanguageName": "Arabic",
         "Language_aa": "الأفارية",
         "Language_ab": "الأبخازية",
         "Language_ae": "الأفستية",
@@ -466,6 +467,7 @@
         "LongMonth_7": "يوليو",
         "LongMonth_8": "أغسطس",
         "LongMonth_9": "سبتمبر",
+        "OriginalLanguageName": "العربية",
         "ShortDay_1": "الاثنين",
         "ShortDay_2": "الثلاثاء",
         "ShortDay_3": "الأربعاء",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "يونيو",
         "ShortMonth_7": "يوليو",
         "ShortMonth_8": "أغسطس",
-        "ShortMonth_9": "سبتمبر"
+        "ShortMonth_9": "سبتمبر",
+        "Today": "اليوم",
+        "YearShort": "السنة",
+        "Yesterday": "أمس"
     }
 }

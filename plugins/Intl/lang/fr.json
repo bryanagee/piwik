@@ -264,6 +264,7 @@
         "DayTh": "je",
         "DayTu": "ma",
         "DayWe": "me",
+        "EnglishLanguageName": "French",
         "Language_aa": "afar",
         "Language_ab": "abkhaze",
         "Language_ae": "avestique",
@@ -466,6 +467,7 @@
         "LongMonth_7": "juillet",
         "LongMonth_8": "août",
         "LongMonth_9": "septembre",
+        "OriginalLanguageName": "français",
         "ShortDay_1": "lun.",
         "ShortDay_2": "mar.",
         "ShortDay_3": "mer.",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "juin",
         "ShortMonth_7": "juil.",
         "ShortMonth_8": "août",
-        "ShortMonth_9": "sept."
+        "ShortMonth_9": "sept.",
+        "Today": "aujourd’hui",
+        "YearShort": "a",
+        "Yesterday": "hier"
     }
 }

@@ -264,6 +264,7 @@
         "DayTh": "Ce",
         "DayTu": "Ot",
         "DayWe": "Tr",
+        "EnglishLanguageName": "Latvian",
         "Language_aa": "afāru",
         "Language_ab": "abhāzu",
         "Language_ae": "avesta",
@@ -466,6 +467,7 @@
         "LongMonth_7": "jūlijs",
         "LongMonth_8": "augusts",
         "LongMonth_9": "septembris",
+        "OriginalLanguageName": "latviešu",
         "ShortDay_1": "Pr",
         "ShortDay_2": "Ot",
         "ShortDay_3": "Tr",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "jūn.",
         "ShortMonth_7": "jūl.",
         "ShortMonth_8": "aug.",
-        "ShortMonth_9": "sept."
+        "ShortMonth_9": "sept.",
+        "Today": "šodien",
+        "YearShort": "g.",
+        "Yesterday": "vakar"
     }
 }

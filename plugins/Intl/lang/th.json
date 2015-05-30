@@ -264,6 +264,7 @@
         "DayTh": "พฤ.",
         "DayTu": "อ.",
         "DayWe": "พ.",
+        "EnglishLanguageName": "Thai",
         "Language_aa": "อะฟาร์",
         "Language_ab": "อับคาซ",
         "Language_ae": "อเวสตะ",
@@ -466,6 +467,7 @@
         "LongMonth_7": "กรกฎาคม",
         "LongMonth_8": "สิงหาคม",
         "LongMonth_9": "กันยายน",
+        "OriginalLanguageName": "ไทย",
         "ShortDay_1": "จ.",
         "ShortDay_2": "อ.",
         "ShortDay_3": "พ.",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "มิ.ย.",
         "ShortMonth_7": "ก.ค.",
         "ShortMonth_8": "ส.ค.",
-        "ShortMonth_9": "ก.ย."
+        "ShortMonth_9": "ก.ย.",
+        "Today": "วันนี้",
+        "YearShort": "ปี",
+        "Yesterday": "เมื่อวาน"
     }
 }

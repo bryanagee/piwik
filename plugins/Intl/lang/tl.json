@@ -264,6 +264,7 @@
         "DayTh": "Hu",
         "DayTu": "Ma",
         "DayWe": "Mi",
+        "EnglishLanguageName": "Tagalog",
         "Language_ab": "Abkhazian",
         "Language_af": "Afrikaans",
         "Language_ak": "Akan",
@@ -434,6 +435,7 @@
         "LongMonth_7": "Hulyo",
         "LongMonth_8": "Agosto",
         "LongMonth_9": "Setyembre",
+        "OriginalLanguageName": "Filipino",
         "ShortDay_1": "Lun",
         "ShortDay_2": "Mar",
         "ShortDay_3": "Miy",
@@ -452,6 +454,9 @@
         "ShortMonth_6": "Hun",
         "ShortMonth_7": "Hul",
         "ShortMonth_8": "Ago",
-        "ShortMonth_9": "Set"
+        "ShortMonth_9": "Set",
+        "Today": "ngayong araw",
+        "YearShort": "yr.",
+        "Yesterday": "kahapon"
     }
 }

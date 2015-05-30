@@ -264,6 +264,7 @@
         "DayTh": "JU",
         "DayTu": "MA",
         "DayWe": "MI",
+        "EnglishLanguageName": "Spanish",
         "Language_aa": "afar",
         "Language_ab": "abjasio",
         "Language_ae": "avéstico",
@@ -466,6 +467,7 @@
         "LongMonth_7": "julio",
         "LongMonth_8": "agosto",
         "LongMonth_9": "septiembre",
+        "OriginalLanguageName": "español",
         "ShortDay_1": "lun.",
         "ShortDay_2": "mar.",
         "ShortDay_3": "mié.",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "jun.",
         "ShortMonth_7": "jul.",
         "ShortMonth_8": "ago.",
-        "ShortMonth_9": "sept."
+        "ShortMonth_9": "sept.",
+        "Today": "hoy",
+        "YearShort": "a",
+        "Yesterday": "ayer"
     }
 }

@@ -264,6 +264,7 @@
         "DayTh": "qui",
         "DayTu": "ter",
         "DayWe": "qua",
+        "EnglishLanguageName": "Brazilian Portuguese",
         "Language_aa": "afar",
         "Language_ab": "abcázio",
         "Language_ae": "avéstico",
@@ -466,6 +467,7 @@
         "LongMonth_7": "julho",
         "LongMonth_8": "agosto",
         "LongMonth_9": "setembro",
+        "OriginalLanguageName": "português do Brasil",
         "ShortDay_1": "seg",
         "ShortDay_2": "ter",
         "ShortDay_3": "qua",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "jun",
         "ShortMonth_7": "jul",
         "ShortMonth_8": "ago",
-        "ShortMonth_9": "set"
+        "ShortMonth_9": "set",
+        "Today": "hoje",
+        "YearShort": "ano",
+        "Yesterday": "ontem"
     }
 }

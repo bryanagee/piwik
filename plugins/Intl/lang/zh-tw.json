@@ -264,6 +264,7 @@
         "DayTh": "四",
         "DayTu": "二",
         "DayWe": "三",
+        "EnglishLanguageName": "Traditional Chinese",
         "Language_aa": "阿法文",
         "Language_ab": "阿布哈茲文",
         "Language_ae": "阿緯斯陀文",
@@ -466,6 +467,7 @@
         "LongMonth_7": "7月",
         "LongMonth_8": "8月",
         "LongMonth_9": "9月",
+        "OriginalLanguageName": "繁體中文",
         "ShortDay_1": "週一",
         "ShortDay_2": "週二",
         "ShortDay_3": "週三",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "6月",
         "ShortMonth_7": "7月",
         "ShortMonth_8": "8月",
-        "ShortMonth_9": "9月"
+        "ShortMonth_9": "9月",
+        "Today": "今天",
+        "YearShort": "年",
+        "Yesterday": "昨天"
     }
 }

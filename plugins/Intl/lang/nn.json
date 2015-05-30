@@ -260,6 +260,7 @@
         "DayTh": "to.",
         "DayTu": "ty.",
         "DayWe": "on.",
+        "EnglishLanguageName": "Norwegian Nynorsk",
         "Language_aa": "afar",
         "Language_ab": "abkhasisk",
         "Language_ae": "avestisk",
@@ -462,6 +463,7 @@
         "LongMonth_7": "juli",
         "LongMonth_8": "august",
         "LongMonth_9": "september",
+        "OriginalLanguageName": "nynorsk",
         "ShortDay_1": "må.",
         "ShortDay_2": "ty.",
         "ShortDay_3": "on.",
@@ -480,6 +482,9 @@
         "ShortMonth_6": "juni",
         "ShortMonth_7": "juli",
         "ShortMonth_8": "aug.",
-        "ShortMonth_9": "sep."
+        "ShortMonth_9": "sep.",
+        "Today": "i dag",
+        "YearShort": "år",
+        "Yesterday": "i går"
     }
 }

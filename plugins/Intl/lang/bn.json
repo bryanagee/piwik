@@ -264,6 +264,7 @@
         "DayTh": "বৃঃ",
         "DayTu": "মঃ",
         "DayWe": "বুঃ",
+        "EnglishLanguageName": "Bengali",
         "Language_aa": "আফার",
         "Language_ab": "আবখাজিয়ান",
         "Language_ae": "আবেস্তীয়",
@@ -466,6 +467,7 @@
         "LongMonth_7": "জুলাই",
         "LongMonth_8": "আগস্ট",
         "LongMonth_9": "সেপ্টেম্বর",
+        "OriginalLanguageName": "বাংলা",
         "ShortDay_1": "সোম",
         "ShortDay_2": "মঙ্গল",
         "ShortDay_3": "বুধ",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "জুন",
         "ShortMonth_7": "জুলাই",
         "ShortMonth_8": "আগস্ট",
-        "ShortMonth_9": "সেপ্টেম্বর"
+        "ShortMonth_9": "সেপ্টেম্বর",
+        "Today": "আজ",
+        "YearShort": "বছর",
+        "Yesterday": "গতকাল"
     }
 }

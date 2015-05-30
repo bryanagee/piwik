@@ -264,6 +264,7 @@
         "DayTh": "Ia",
         "DayTu": "Ma",
         "DayWe": "Me",
+        "EnglishLanguageName": "Welsh",
         "Language_aa": "Affareg",
         "Language_ab": "Abchaseg",
         "Language_ae": "Afestaneg",
@@ -451,6 +452,7 @@
         "LongMonth_7": "Gorffennaf",
         "LongMonth_8": "Awst",
         "LongMonth_9": "Medi",
+        "OriginalLanguageName": "Cymraeg",
         "ShortDay_1": "Llun",
         "ShortDay_2": "Maw",
         "ShortDay_3": "Mer",
@@ -469,6 +471,9 @@
         "ShortMonth_6": "Meh",
         "ShortMonth_7": "Gorff",
         "ShortMonth_8": "Awst",
-        "ShortMonth_9": "Medi"
+        "ShortMonth_9": "Medi",
+        "Today": "heddiw",
+        "YearShort": "Blwyddyn",
+        "Yesterday": "ddoe"
     }
 }

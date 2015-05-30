@@ -264,6 +264,7 @@
         "DayTh": "வி",
         "DayTu": "செ",
         "DayWe": "பு",
+        "EnglishLanguageName": "Tamil",
         "Language_aa": "அஃபார்",
         "Language_ab": "அப்காஜியான்",
         "Language_ae": "அவெஸ்தான்",
@@ -466,6 +467,7 @@
         "LongMonth_7": "ஜூலை",
         "LongMonth_8": "ஆகஸ்ட்",
         "LongMonth_9": "செப்டம்பர்",
+        "OriginalLanguageName": "தமிழ்",
         "ShortDay_1": "தி",
         "ShortDay_2": "செ",
         "ShortDay_3": "பு",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "ஜூன்",
         "ShortMonth_7": "ஜூலை",
         "ShortMonth_8": "ஆக.",
-        "ShortMonth_9": "செப்."
+        "ShortMonth_9": "செப்.",
+        "Today": "இன்று",
+        "YearShort": "ஆண்டு",
+        "Yesterday": "நேற்று"
     }
 }

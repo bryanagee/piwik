@@ -259,6 +259,7 @@
         "DayTh": "чц",
         "DayTu": "аў",
         "DayWe": "ср",
+        "EnglishLanguageName": "Belarusian",
         "Language_ab": "абхазская",
         "Language_af": "афрыкаанс",
         "Language_am": "амхарская",
@@ -383,6 +384,7 @@
         "LongMonth_7": "ліпеня",
         "LongMonth_8": "жніўня",
         "LongMonth_9": "верасня",
+        "OriginalLanguageName": "беларуская",
         "ShortDay_1": "пн",
         "ShortDay_2": "аў",
         "ShortDay_3": "ср",
@@ -401,6 +403,9 @@
         "ShortMonth_6": "чэр",
         "ShortMonth_7": "ліп",
         "ShortMonth_8": "жні",
-        "ShortMonth_9": "вер"
+        "ShortMonth_9": "вер",
+        "Today": "сёння",
+        "YearShort": "год",
+        "Yesterday": "учора"
     }
 }

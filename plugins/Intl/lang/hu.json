@@ -264,6 +264,7 @@
         "DayTh": "Cs",
         "DayTu": "K",
         "DayWe": "Sze",
+        "EnglishLanguageName": "Hungarian",
         "Language_aa": "afar",
         "Language_ab": "abház",
         "Language_ae": "avesztán",
@@ -466,6 +467,7 @@
         "LongMonth_7": "július",
         "LongMonth_8": "augusztus",
         "LongMonth_9": "szeptember",
+        "OriginalLanguageName": "magyar",
         "ShortDay_1": "H",
         "ShortDay_2": "K",
         "ShortDay_3": "Sze",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "jún.",
         "ShortMonth_7": "júl.",
         "ShortMonth_8": "aug.",
-        "ShortMonth_9": "szept."
+        "ShortMonth_9": "szept.",
+        "Today": "ma",
+        "YearShort": "év",
+        "Yesterday": "tegnap"
     }
 }

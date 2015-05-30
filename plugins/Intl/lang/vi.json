@@ -264,6 +264,7 @@
         "DayTh": "T5",
         "DayTu": "T3",
         "DayWe": "T4",
+        "EnglishLanguageName": "Vietnamese",
         "Language_aa": "Tiếng Afar",
         "Language_ab": "Tiếng Abkhazia",
         "Language_ae": "Tiếng Avestan",
@@ -466,6 +467,7 @@
         "LongMonth_7": "tháng 7",
         "LongMonth_8": "tháng 8",
         "LongMonth_9": "tháng 9",
+        "OriginalLanguageName": "Tiếng Việt",
         "ShortDay_1": "Th 2",
         "ShortDay_2": "Th 3",
         "ShortDay_3": "Th 4",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "thg 6",
         "ShortMonth_7": "thg 7",
         "ShortMonth_8": "thg 8",
-        "ShortMonth_9": "thg 9"
+        "ShortMonth_9": "thg 9",
+        "Today": "hôm nay",
+        "YearShort": "Năm",
+        "Yesterday": "hôm qua"
     }
 }

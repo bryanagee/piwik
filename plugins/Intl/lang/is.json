@@ -264,6 +264,7 @@
         "DayTh": "fi.",
         "DayTu": "þr.",
         "DayWe": "mi.",
+        "EnglishLanguageName": "Icelandic",
         "Language_ab": "abkasíska",
         "Language_ae": "avestíska",
         "Language_af": "afríkanska",
@@ -464,6 +465,7 @@
         "LongMonth_7": "júlí",
         "LongMonth_8": "ágúst",
         "LongMonth_9": "september",
+        "OriginalLanguageName": "íslenska",
         "ShortDay_1": "mán.",
         "ShortDay_2": "þri.",
         "ShortDay_3": "mið.",
@@ -482,6 +484,9 @@
         "ShortMonth_6": "jún.",
         "ShortMonth_7": "júl.",
         "ShortMonth_8": "ágú.",
-        "ShortMonth_9": "sep."
+        "ShortMonth_9": "sep.",
+        "Today": "í dag",
+        "YearShort": "ár",
+        "Yesterday": "í gær"
     }
 }

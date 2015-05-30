@@ -264,6 +264,7 @@
         "DayTh": "Pe",
         "DayTu": "Sa",
         "DayWe": "Ça",
+        "EnglishLanguageName": "Turkish",
         "Language_aa": "Afar",
         "Language_ab": "Abhazca",
         "Language_ae": "Avestçe",
@@ -466,6 +467,7 @@
         "LongMonth_7": "Temmuz",
         "LongMonth_8": "Ağustos",
         "LongMonth_9": "Eylül",
+        "OriginalLanguageName": "Türkçe",
         "ShortDay_1": "Pzt",
         "ShortDay_2": "Sal",
         "ShortDay_3": "Çar",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "Haz",
         "ShortMonth_7": "Tem",
         "ShortMonth_8": "Ağu",
-        "ShortMonth_9": "Eyl"
+        "ShortMonth_9": "Eyl",
+        "Today": "bugün",
+        "YearShort": "yıl",
+        "Yesterday": "dün"
     }
 }

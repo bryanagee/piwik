@@ -264,6 +264,7 @@
         "DayTh": "чт",
         "DayTu": "вт",
         "DayWe": "ср",
+        "EnglishLanguageName": "Russian",
         "Language_aa": "афар",
         "Language_ab": "абхазский",
         "Language_ae": "авестийский",
@@ -466,6 +467,7 @@
         "LongMonth_7": "июля",
         "LongMonth_8": "августа",
         "LongMonth_9": "сентября",
+        "OriginalLanguageName": "русский",
         "ShortDay_1": "пн",
         "ShortDay_2": "вт",
         "ShortDay_3": "ср",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "июня",
         "ShortMonth_7": "июля",
         "ShortMonth_8": "авг.",
-        "ShortMonth_9": "сент."
+        "ShortMonth_9": "сент.",
+        "Today": "сегодня",
+        "YearShort": "г.",
+        "Yesterday": "вчера"
     }
 }

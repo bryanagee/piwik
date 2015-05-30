@@ -264,6 +264,7 @@
         "DayTh": "czw.",
         "DayTu": "wt.",
         "DayWe": "śr.",
+        "EnglishLanguageName": "Polish",
         "Language_aa": "afar",
         "Language_ab": "abchaski",
         "Language_ae": "awestyjski",
@@ -466,6 +467,7 @@
         "LongMonth_7": "lipca",
         "LongMonth_8": "sierpnia",
         "LongMonth_9": "września",
+        "OriginalLanguageName": "polski",
         "ShortDay_1": "pon.",
         "ShortDay_2": "wt.",
         "ShortDay_3": "śr.",
@@ -484,6 +486,9 @@
         "ShortMonth_6": "cze",
         "ShortMonth_7": "lip",
         "ShortMonth_8": "sie",
-        "ShortMonth_9": "wrz"
+        "ShortMonth_9": "wrz",
+        "Today": "dzisiaj",
+        "YearShort": "r.",
+        "Yesterday": "wczoraj"
     }
 }
