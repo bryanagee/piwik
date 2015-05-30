@@ -54,9 +54,9 @@ function languageTranslateWithCode($label)
 
     if (count($ex) == 2 && $ex[0] != $ex[1]) {
         $countryKey = 'UserCountry_country_' . $ex[1];
-        $country = Piwik::translate('Intl_Country_'.$ex[1]);
+        $country = Piwik::translate('Intl_Country_'.strtoupper($ex[1]));
 
-        if ($country == 'Intl_Country_'.$ex[1]) {
+        if ($country == 'Intl_Country_'.strtoupper($ex[1])) {
             $country = Piwik::translate($countryKey);
         }
 
