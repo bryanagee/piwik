@@ -285,12 +285,12 @@ class API extends \Piwik\Plugin\API
             $filenames = $this->getAvailableLanguages();
             $languagesInfo = array();
             foreach ($filenames as $filename) {
-                $data = file_get_contents(PIWIK_INCLUDE_PATH . "/lang/$filename.json");
+                $data = file_get_contents(PIWIK_INCLUDE_PATH . "/plugins/Intl/lang/$filename.json");
                 $translations = json_decode($data, true);
                 $languagesInfo[] = array(
                     'code'         => $filename,
-                    'name'         => $translations['General']['OriginalLanguageName'],
-                    'english_name' => $translations['General']['EnglishLanguageName']
+                    'name'         => $translations['Intl']['OriginalLanguageName'],
+                    'english_name' => $translations['Intl']['EnglishLanguageName']
                 );
             }
 
