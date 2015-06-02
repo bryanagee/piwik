@@ -15,6 +15,7 @@ use Piwik\Piwik;
 use Piwik\SettingsPiwik;
 use Piwik\Site;
 use Piwik\Tracker\TrackerCodeGenerator;
+use Piwik\Type\TypeSettings;
 use Piwik\Url;
 use Piwik\View;
 
@@ -31,6 +32,19 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
         Piwik::checkUserHasSomeAdminAccess();
 
         return $this->renderTemplate('index');
+    }
+
+    public function getCustomTypeSettings()
+    {
+        $idSite = Common::getRequestVar('idSite', null, 'int');
+        Piwik::checkUserHasAdminAccess($idSite);
+
+        $view = new View('@SitesManager/custom_type_settings');
+
+        $settings = new TypeSettings($idSite);
+        $view->settings = $settings->getSettings();
+
+        return $view->render();
     }
 
     public function getGlobalSettings() {

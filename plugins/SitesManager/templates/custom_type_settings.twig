@@ -1,0 +1,5 @@
+{% import 'settingsMacros.twig' as settingsMacro %}
+
+{% for name, setting in settings %}
+    {{ settingsMacro.singleSetting(setting) }}
+{% endfor %}

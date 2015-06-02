@@ -52,10 +52,15 @@ class Storage implements StorageInterface
      */
     public function deleteAllValues()
     {
-        Option::delete($this->getOptionKey());
+        $this->deleteSettingsFromStorage();
 
         $this->settingsValues = array();
         $this->settingValuesLoaded = false;
+    }
+
+    protected function deleteSettingsFromStorage()
+    {
+        Option::delete($this->getOptionKey());
     }
 
     /**

@@ -25,6 +25,7 @@ use Piwik\SettingsServer;
 use Piwik\Site;
 use Piwik\Tracker;
 use Piwik\Tracker\Cache;
+use Piwik\Type\TypeSettings;
 use Piwik\Url;
 use Piwik\UrlHelper;
 
@@ -487,6 +488,7 @@ class API extends \Piwik\Plugin\API
      * @param null|string $excludedUserAgents
      * @param int $keepURLFragments If 1, URL fragments will be kept when tracking. If 2, they
      *                              will be removed. If 0, the default global behavior will be used.
+     * @param string|null $settings JSON serialized settings eg {settingName: settingValue, ...}
      * @see getKeepURLFragmentsGlobal.
      * @param string $type The website type, defaults to "website" if not set.
      *
@@ -506,7 +508,8 @@ class API extends \Piwik\Plugin\API
                             $startDate = null,
                             $excludedUserAgents = null,
                             $keepURLFragments = null,
-                            $type = null)
+                            $type = null,
+                            $settings = null)
     {
         Piwik::checkUserHasSuperUserAccess();
 
@@ -570,6 +573,12 @@ class API extends \Piwik\Plugin\API
 
         // we reload the access list which doesn't yet take in consideration this new website
         Access::getInstance()->reloadAccess();
+
+        if (!empty($settings)) {
+            $settings = json_decode($settings);
+            $this->updateCustomTypeSettings($idSite, $settings);
+        }
+
         $this->postUpdateWebsite($idSite);
 
         /**
@@ -580,6 +589,26 @@ class API extends \Piwik\Plugin\API
         Piwik::postEvent('SitesManager.addSite.end', array($idSite));
 
         return (int) $idSite;
+    }
+
+    private function updateCustomTypeSettings($idSite, $settings)
+    {
+        if (empty($settings)) {
+            return;
+        }
+
+        $typeSettings = new TypeSettings($idSite);
+
+        foreach ($typeSettings->getSettings() as $typeSetting) {
+            $name = $typeSetting->getName();
+            if (!empty($settings[$name])) {
+                $typeSetting->setValue($settings[$name]);
+            }
+            // we do not clear existing settings if the value is missing. There can be so many settings added by
+            // random plugins one would always clear some settings.
+        }
+
+        $typeSettings->save();
     }
 
     private function postUpdateWebsite($idSite)
@@ -1031,6 +1060,7 @@ class API extends \Piwik\Plugin\API
      * @param int|null $keepURLFragments If 1, URL fragments will be kept when tracking. If 2, they
      *                                   will be removed. If 0, the default global behavior will be used.
      * @param string $type The Website type, default value is "website"
+     * @param string|null $settings JSON serialized settings eg {settingName: settingValue, ...}
      * @throws Exception
      * @see getKeepURLFragmentsGlobal. If null, the existing value will
      *                                   not be modified.
@@ -1052,7 +1082,8 @@ class API extends \Piwik\Plugin\API
                                $startDate = null,
                                $excludedUserAgents = null,
                                $keepURLFragments = null,
-                               $type = null)
+                               $type = null,
+                               $settings = null)
     {
         Piwik::checkUserHasAdminAccess($idSite);
 
@@ -1123,6 +1154,11 @@ class API extends \Piwik\Plugin\API
 
         if (count($urls) > 1) {
             $this->addSiteAliasUrls($idSite, array_slice($urls, 1));
+        }
+
+        if (!empty($settings)) {
+            $settings = json_decode($settings);
+            $this->updateCustomTypeSettings($idSite, $settings);
         }
 
         $this->postUpdateWebsite($idSite);

@@ -77,6 +77,17 @@
                 }, 'GET');
             }
 
+            var settings = $('.typeSettings').serializeArray();
+
+            var flatSettings = '';
+            if (settings.length) {
+                flatSettings = {};
+                angular.forEach(settings, function (value, name) {
+                    flatSettings[name] = value;
+                });
+                flatSettings = JSON.stringify(flatSettings);
+            }
+
             ajaxHandler.addParams({
                 siteName: $scope.site.name,
                 timezone: $scope.site.timezone,
@@ -89,7 +100,8 @@
                 siteSearch: $scope.site.sitesearch,
                 searchKeywordParameters: sendSiteSearchKeywordParams ? $scope.site.sitesearch_keyword_parameters.join(',') : null,
                 searchCategoryParameters: sendSearchCategoryParameters ? $scope.site.sitesearch_category_parameters.join(',') : null,
-                urls: $scope.site.alias_urls
+                urls: $scope.site.alias_urls,
+                settings: flatSettings
             }, 'POST');
 
             ajaxHandler.redirectOnSuccess($scope.redirectParams);
