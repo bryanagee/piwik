@@ -16,6 +16,7 @@ class Website extends Type
 {
     const ID = 'website';
     protected $name = 'General_Website';
+    protected $description = 'General_WebsiteDescription';
 
     public function configureSettings(TypeSettings $settings)
     {

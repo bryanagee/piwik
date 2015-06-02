@@ -1,6 +1,8 @@
 <div ng-show="!siteIsBeingEdited" class="sitesButtonBar">
     <div class="addSite">
-        <a ng-show="hasSuperUserAccess" class="addRowSite" ng-click="addSite()" tabindex="1">
+        <a ng-show="hasSuperUserAccess && availableTypes"
+           class="addRowSite"
+           ng-click="addNewEntity()" tabindex="1">
             {{ 'SitesManager_AddSite'|translate }}
         </a>
     </div>

@@ -25,6 +25,7 @@ use Piwik\SettingsServer;
 use Piwik\Site;
 use Piwik\Tracker;
 use Piwik\Tracker\Cache;
+use Piwik\Type\Type;
 use Piwik\Type\TypeSettings;
 use Piwik\Url;
 use Piwik\UrlHelper;
@@ -589,6 +590,22 @@ class API extends \Piwik\Plugin\API
         Piwik::postEvent('SitesManager.addSite.end', array($idSite));
 
         return (int) $idSite;
+    }
+
+    public function getAvailableTypes()
+    {
+        $types = Type::getAllTypes();
+
+        $available = array();
+        foreach ($types as $type) {
+            $available[] = array(
+                'id' => $type->getId(),
+                'name' => Piwik::translate($type->getName()),
+                'description' => Piwik::translate($type->getDescription()),
+            );
+        }
+
+        return $available;
     }
 
     private function updateCustomTypeSettings($idSite, $settings)

@@ -16,6 +16,7 @@ class MobileApp extends Type
 {
     const ID = 'mobileapp';
     protected $name = 'General_MobileApp';
+    protected $description = 'General_MobileAppDescription';
 
     public function configureSettings(TypeSettings $settings)
     {

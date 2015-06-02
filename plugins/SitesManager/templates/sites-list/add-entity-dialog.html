@@ -1,0 +1,13 @@
+<div piwik-dialog="showAddSiteDialog"
+     yes="addSite(typeForNewEntity)"
+     title="What would you like to track?">
+
+    <ul>
+        <li ng-repeat="type in availableTypes">
+            <input ng-model="$parent.typeForNewEntity" type="radio" name="type" ng-value="type.id"/>
+            {{ type.name }}: {{ type.description }}
+        </li>
+    </ul>
+
+    <input type="button" role="yes" value="Add">
+</div>

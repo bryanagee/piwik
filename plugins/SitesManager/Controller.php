@@ -36,12 +36,20 @@ class Controller extends \Piwik\Plugin\ControllerAdmin
 
     public function getCustomTypeSettings()
     {
-        $idSite = Common::getRequestVar('idSite', null, 'int');
-        Piwik::checkUserHasAdminAccess($idSite);
+        $idSite = Common::getRequestVar('idSite', 0, 'int');
+        $idType = Common::getRequestVar('idType', '', 'string');
+
+        if ($idSite >= 1) {
+            Piwik::checkUserHasAdminAccess($idSite);
+        } else if ($idSite === 0) {
+            Piwik::checkUserHasSomeAdminAccess();
+        } else {
+            throw new Exception('Invalid idSite parameter. IdSite has to be zero or higher');
+        }
 
         $view = new View('@SitesManager/custom_type_settings');
 
-        $settings = new TypeSettings($idSite);
+        $settings = new TypeSettings($idSite, $idType ?: null);
         $view->settings = $settings->getSettings();
 
         return $view->render();

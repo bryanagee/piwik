@@ -15,6 +15,7 @@ class Type
 {
     const ID = '';
     protected $name = '';
+    protected $description = '';
 
     public function getId()
     {
@@ -26,6 +27,16 @@ class Type
         }
 
         return $id;
+    }
+
+    public function getDescription()
+    {
+        return $this->description;
+    }
+
+    public function getName()
+    {
+        return $this->name;
     }
 
     public function configureSettings(TypeSettings $settings)
