@@ -96,11 +96,17 @@
 
         openSubtableFromLevel0IfOnlyOneSubtableGiven: function (domElem) {
             var $subtables = domElem.find('.subDataTable');
-            var hasOnlyOneRow = domElem.find('tr[id]').length === 1;
             var hasOnlyOneSubtable = $subtables.length === 1;
 
-            if (hasOnlyOneRow && hasOnlyOneSubtable) {
-                $subtables.find('.label')[0].click();
+            if (hasOnlyOneSubtable) {
+                var hasOnlyOneRow = domElem.find('tr[id]').length === 1;
+                
+                if (hasOnlyOneRow) {
+                    var $labels = $subtables.find('.label');
+                    if ($labels.length) {
+                        $labels[0].click();
+                    }
+                }
             }
         },
 
@@ -110,7 +116,10 @@
 
             if (hasOnlyOneRow && hasOnlyOneSubtable) {
                 // when subtable is loaded
-                domElem.find('.label')[0].click();
+                var $labels = domElem.find('.label');
+                if ($labels.length) {
+                    $labels[0].click();
+                }
             }
         },
 
