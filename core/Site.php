@@ -13,6 +13,8 @@ use Exception;
 use Piwik\Exception\UnexpectedWebsiteFoundException;
 use Piwik\Plugins\SitesManager\API;
 use Piwik\Plugins\SitesManager\Model;
+use Piwik\Type\Type;
+use Piwik\Type\TypeSettings;
 
 /**
  * Provides access to individual [site entity](/guides/persistence-and-the-mysql-backend#websites-aka-sites) data
@@ -261,6 +263,18 @@ class Site
             throw new Exception("The property $name could not be found on the website ID " . (int)$this->id);
         }
         return self::$infoSites[$this->id][$name];
+    }
+
+    public function getSetting($name)
+    {
+        // todo this could be slow as we always recreate settings for each getSetting call, we could just
+        // cache that instance similar to $infoSites.
+        $settings = new TypeSettings($this->id);
+        $setting  = $settings->getSetting($name);
+
+        if (!empty($setting)) {
+            return $setting->getValue(); // Calling `getValue` makes sure we respect read permission property
+        }
     }
 
     /**
